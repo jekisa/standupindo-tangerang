@@ -1,0 +1,22 @@
+<svg width="180" height="48" viewBox="0 0 180 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Mic icon background circle -->
+  <rect width="44" height="44" x="2" y="2" rx="10" fill="#FFD700"/>
+
+  <!-- Microphone body -->
+  <rect x="18" y="8" width="12" height="18" rx="6" fill="#000"/>
+
+  <!-- Microphone stand arc -->
+  <path d="M13 24c0 6.627 5.373 12 12 12s12-5.373 12-12" stroke="#000" stroke-width="2.5" stroke-linecap="round" fill="none"/>
+
+  <!-- Microphone stand pole -->
+  <line x1="24" y1="36" x2="24" y2="42" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Microphone stand base -->
+  <line x1="19" y1="42" x2="29" y2="42" stroke="#000" stroke-width="2.5" stroke-linecap="round"/>
+
+  <!-- Brand text: StandupIndo -->
+  <text x="56" y="28" font-family="Arial Black, Arial, sans-serif" font-weight="900" font-size="17" fill="#FFFFFF" letter-spacing="-0.5">StandupIndo</text>
+
+  <!-- Brand text: TANGERANG -->
+  <text x="57" y="42" font-family="Arial, sans-serif" font-weight="700" font-size="9.5" fill="#FFD700" letter-spacing="3.5">TANGERANG</text>
+</svg>

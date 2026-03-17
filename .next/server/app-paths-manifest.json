@@ -1,0 +1,8 @@
+{
+  "/blog/page": "app/blog/page.js",
+  "/galeri/page": "app/galeri/page.js",
+  "/peta/page": "app/peta/page.js",
+  "/admin/page": "app/admin/page.js",
+  "/page": "app/page.js",
+  "/jadwal/page": "app/jadwal/page.js"
+}
