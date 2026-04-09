@@ -1,7 +1,4 @@
 {
   "/page": "app/page.js",
-  "/komika/page": "app/komika/page.js",
-  "/galeri/page": "app/galeri/page.js",
-  "/blog/page": "app/blog/page.js",
-  "/peta/page": "app/peta/page.js"
+  "/komika/page": "app/komika/page.js"
 }

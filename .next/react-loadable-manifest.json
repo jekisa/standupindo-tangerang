@@ -1,10 +1,4 @@
 {
-  "app\\peta\\page.js -> @/components/peta/OpenMicMap": {
-    "id": "app\\peta\\page.js -> @/components/peta/OpenMicMap",
-    "files": [
-      "static/chunks/_app-pages-browser_components_peta_OpenMicMap_js.js"
-    ]
-  },
   "node_modules\\@tanstack\\query-devtools\\build\\dev.js -> ./DevtoolsComponent/B5PP2USH.js": {
     "id": "node_modules\\@tanstack\\query-devtools\\build\\dev.js -> ./DevtoolsComponent/B5PP2USH.js",
     "files": [
