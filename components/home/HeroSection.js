@@ -27,10 +27,6 @@ export default function HeroSection() {
       {/* Content */}
       <div className="relative z-10 container mx-auto px-4 lg:px-8 pt-28 pb-16 text-center">
         {/* Badge */}
-        <div className="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-brand-yellow/10 border border-brand-yellow/30 text-brand-yellow text-xs font-semibold mb-8 animate-fade-in">
-          <div className="w-2 h-2 rounded-full bg-brand-yellow animate-pulse" />
-          <span>Komunitas Standup Comedy #1 di Tangerang</span>
-        </div>
 
         {/* Main Heading */}
         <h1 className="text-5xl sm:text-6xl lg:text-8xl font-black text-white leading-none tracking-tight mb-4 animate-slide-up">
@@ -49,11 +45,11 @@ export default function HeroSection() {
         {/* CTA Buttons */}
         <div className="flex flex-col sm:flex-row items-center justify-center gap-4 mt-10 animate-slide-up" style={{ animationDelay: '0.3s' }}>
           <Link
-            href="/jadwal"
+            href="/blog"
             className="group flex items-center gap-2 px-7 py-3.5 bg-brand-yellow text-black font-bold rounded-xl hover:bg-yellow-400 transition-all hover:scale-105 active:scale-95 shadow-yellow text-sm"
           >
             <Calendar className="w-4 h-4" />
-            Lihat Jadwal Open Mic
+            Belajar Standup Comedy
             <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
           </Link>
           <Link
@@ -69,8 +65,8 @@ export default function HeroSection() {
         <div className="flex flex-wrap items-center justify-center gap-6 mt-14 text-sm animate-fade-in" style={{ animationDelay: '0.5s' }}>
           {[
             { icon: Mic, text: '35+ Komika Aktif' },
-            { icon: Calendar, text: '5x Open Mic / Minggu' },
-            { icon: MapPin, text: '8 Venue di Tangerang' },
+            { icon: Calendar, text: 'Open Mic setiap Jumat' },
+            { icon: MapPin, text: 'Combud setiap Rabu' },
           ].map(({ icon: Icon, text }) => (
             <div key={text} className="flex items-center gap-1.5 text-gray-400">
               <Icon className="w-4 h-4 text-brand-yellow" />

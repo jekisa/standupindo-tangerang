@@ -10,10 +10,10 @@ module.exports = {
     extend: {
       colors: {
         brand: {
-          yellow: '#FFD700',
-          amber: '#F59E0B',
-          orange: '#FF6B35',
-          red: '#E63946',
+          yellow: '#26CCC2',
+          amber: '#6AECE1',
+          orange: '#FFB76C',
+          red: '#FFF57E',
           dark: '#080808',
           card: '#141414',
           card2: '#1C1C1C',
@@ -26,8 +26,8 @@ module.exports = {
       },
       backgroundImage: {
         'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'spotlight': 'radial-gradient(ellipse at top, rgba(255,215,0,0.15), transparent 70%)',
-        'hero-gradient': 'linear-gradient(135deg, #080808 0%, #1a0a00 50%, #080808 100%)',
+        'spotlight': 'radial-gradient(ellipse at top, rgba(38,204,194,0.15), transparent 70%)',
+        'hero-gradient': 'linear-gradient(135deg, #080808 0%, #001a19 50%, #080808 100%)',
       },
       animation: {
         'fade-in': 'fadeIn 0.6s ease-out',
@@ -55,8 +55,8 @@ module.exports = {
           '50%': { transform: 'translateY(-12px)' },
         },
         glow: {
-          '0%': { boxShadow: '0 0 5px #FFD700, 0 0 10px #FFD700' },
-          '100%': { boxShadow: '0 0 20px #FFD700, 0 0 40px #FFD70060' },
+          '0%': { boxShadow: '0 0 5px #26CCC2, 0 0 10px #26CCC2' },
+          '100%': { boxShadow: '0 0 20px #26CCC2, 0 0 40px #26CCC260' },
         },
         ticker: {
           '0%': { transform: 'translateX(100%)' },
@@ -64,9 +64,9 @@ module.exports = {
         },
       },
       boxShadow: {
-        'yellow': '0 0 30px rgba(255,215,0,0.3)',
-        'yellow-sm': '0 0 15px rgba(255,215,0,0.2)',
-        'orange': '0 0 30px rgba(255,107,53,0.3)',
+        'yellow': '0 0 30px rgba(38,204,194,0.3)',
+        'yellow-sm': '0 0 15px rgba(38,204,194,0.2)',
+        'orange': '0 0 30px rgba(255,183,108,0.3)',
         'card': '0 4px 24px rgba(0,0,0,0.4)',
       },
     },

@@ -1,6 +1,5 @@
-import Link from 'next/link'
 import Image from 'next/image'
-import { Calendar, MapPin, Clock, Users, ArrowRight, Ticket } from 'lucide-react'
+import { Calendar, MapPin, Clock, Users, Ticket } from 'lucide-react'
 import { shows } from '@/lib/mockData'
 import { format, parseISO } from 'date-fns'
 import { id } from 'date-fns/locale'
@@ -20,16 +19,9 @@ export default function UpcomingShows() {
         {/* Header */}
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>
-            <p className="text-brand-yellow text-xs font-bold tracking-widest uppercase mb-2">🎤 Agenda</p>
             <h2 className="text-3xl lg:text-4xl font-black text-white">Upcoming Shows</h2>
             <p className="text-gray-400 mt-2 text-sm">Jangan sampai ketinggalan momen terbaik komunitas</p>
           </div>
-          <Link
-            href="/jadwal"
-            className="flex items-center gap-1.5 text-brand-yellow text-sm font-semibold hover:gap-2.5 transition-all"
-          >
-            Lihat Semua Jadwal <ArrowRight className="w-4 h-4" />
-          </Link>
         </div>
 
         {/* Cards */}

@@ -13,8 +13,8 @@ export default function Footer() {
               <Image
                 src="/logo.png"
                 alt="StandupIndo Tangerang"
-                width={44}
-                height={44}
+                width={72}
+                height={72}
               />
             </Link>
             <p className="text-gray-400 text-sm leading-relaxed mb-5">
@@ -22,14 +22,15 @@ export default function Footer() {
             </p>
             <div className="flex gap-3">
               {[
-                { icon: Instagram, href: '#', label: 'Instagram' },
-                { icon: Youtube, href: '#', label: 'Youtube' },
+                { icon: Instagram, href: 'https://www.instagram.com/standupindo_tangerang/', label: 'Instagram', newTab: true },
+                { icon: Youtube, href: 'https://www.youtube.com/@StandUpComedyBTS', label: 'Youtube', newTab: true },
                 { icon: Facebook, href: '#', label: 'Facebook' },
-              ].map(({ icon: Icon, href, label }) => (
+              ].map(({ icon: Icon, href, label, newTab }) => (
                 <a
                   key={label}
                   href={href}
                   aria-label={label}
+                  {...(newTab && { target: '_blank', rel: 'noopener noreferrer' })}
                   className="w-9 h-9 rounded-lg bg-brand-card border border-brand-border flex items-center justify-center text-gray-400 hover:text-brand-yellow hover:border-brand-yellow/30 transition-all"
                 >
                   <Icon className="w-4 h-4" />
@@ -44,10 +45,7 @@ export default function Footer() {
             <ul className="space-y-2">
               {[
                 { href: '/', label: 'Home' },
-                { href: '/jadwal', label: 'Jadwal Open Mic' },
                 { href: '/komika', label: 'Direktori Komika' },
-                { href: '/download', label: 'Digital Download' },
-                { href: '/booking', label: 'Booking Komika' },
                 { href: '/blog', label: 'Blog & Kamus Standup' },
                 { href: '/galeri', label: 'Galeri Pecah' },
                 { href: '/peta', label: 'Open Mic Map' },
@@ -101,17 +99,6 @@ export default function Footer() {
                 </a>
               </li>
             </ul>
-            <div className="mt-6 p-4 bg-brand-card rounded-xl border border-brand-border">
-              <p className="text-xs text-gray-400 leading-relaxed">
-                Mau booking komika atau jadi sponsor? Hubungi kami dan kami akan respond dalam 24 jam.
-              </p>
-              <Link
-                href="/booking"
-                className="mt-3 block text-center py-2 bg-brand-yellow text-black text-xs font-bold rounded-lg hover:bg-yellow-400 transition-colors"
-              >
-                Booking Sekarang
-              </Link>
-            </div>
           </div>
         </div>
 

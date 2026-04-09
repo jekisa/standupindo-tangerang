@@ -1,27 +1,7 @@
 import Link from 'next/link'
-import { Mic, Calendar, Map, BookOpen } from 'lucide-react'
+import { Map, BookOpen } from 'lucide-react'
 
 const cards = [
-  {
-    icon: Mic,
-    title: 'Booking Komika',
-    desc: 'Undang komika terbaik Tangerang untuk event kamu. Wedding, corporate, atau gathering.',
-    href: '/booking',
-    cta: 'Booking Sekarang',
-    color: 'from-brand-yellow/20 to-transparent',
-    borderColor: 'border-brand-yellow/20',
-    iconColor: 'text-brand-yellow',
-  },
-  {
-    icon: Calendar,
-    title: 'Cek Jadwal Open Mic',
-    desc: 'Open mic tiap hari Senin – Jumat di berbagai venue di Tangerang. Masuk gratis!',
-    href: '/jadwal',
-    cta: 'Lihat Jadwal',
-    color: 'from-blue-500/10 to-transparent',
-    borderColor: 'border-blue-500/20',
-    iconColor: 'text-blue-400',
-  },
   {
     icon: Map,
     title: 'Open Mic Map',
@@ -51,7 +31,7 @@ export default function CTASection() {
         <div className="text-center mb-12">
           <h2 className="text-3xl lg:text-4xl font-black text-white">Apa yang kalian cari?</h2>
         </div>
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-5">
+        <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
           {cards.map((card) => {
             const Icon = card.icon
             return (

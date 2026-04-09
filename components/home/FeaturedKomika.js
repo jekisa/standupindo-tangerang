@@ -18,7 +18,7 @@ export default function FeaturedKomika() {
         <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4 mb-12">
           <div>
 
-            <h2 className="text-3xl lg:text-4xl font-black text-white">Komika Unggulan</h2>
+            <h2 className="text-3xl lg:text-4xl font-black text-white">Komika Kece</h2>
             <p className="text-gray-400 mt-2 text-sm">Para komika terbaik komunitas StandupIndo Tangerang</p>
           </div>
           <Link href="/komika" className="flex items-center gap-1.5 text-brand-yellow text-sm font-semibold hover:gap-2.5 transition-all">

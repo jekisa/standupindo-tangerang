@@ -5,9 +5,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap');
 
 :root {
-  --brand-yellow: #FFD700;
-  --brand-orange: #FF6B35;
-  --brand-red: #E63946;
+  --brand-yellow: #26CCC2;
+  --brand-orange: #FFB76C;
+  --brand-red: #FFF57E;
   --bg-dark: #080808;
   --bg-card: #141414;
 }
@@ -38,11 +38,11 @@ body {
   background: #141414;
 }
 ::-webkit-scrollbar-thumb {
-  background: #FFD700;
+  background: #26CCC2;
   border-radius: 3px;
 }
 ::-webkit-scrollbar-thumb:hover {
-  background: #F59E0B;
+  background: #6AECE1;
 }
 
 /* Noise texture overlay */
@@ -60,7 +60,7 @@ body {
 
 /* Spotlight effect */
 .spotlight {
-  background: radial-gradient(ellipse at 50% 0%, rgba(255,215,0,0.12) 0%, transparent 60%);
+  background: radial-gradient(ellipse at 50% 0%, rgba(38,204,194,0.12) 0%, transparent 60%);
 }
 
 /* Glass card */
@@ -68,12 +68,12 @@ body {
   background: rgba(20, 20, 20, 0.8);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
-  border: 1px solid rgba(255,215,0,0.1);
+  border: 1px solid rgba(38,204,194,0.1);
 }
 
-/* Yellow glow text */
+/* Teal glow text */
 .text-glow {
-  text-shadow: 0 0 20px rgba(255,215,0,0.5), 0 0 40px rgba(255,215,0,0.3);
+  text-shadow: 0 0 20px rgba(38,204,194,0.5), 0 0 40px rgba(38,204,194,0.3);
 }
 
 /* Line clamp utilities */
@@ -126,7 +126,7 @@ body {
   font-weight: 600;
   letter-spacing: 0.1em;
   text-transform: uppercase;
-  color: #FFD700;
+  color: #26CCC2;
   border-bottom: 1px solid #2A2A2A;
   user-select: none;
 }
@@ -141,12 +141,12 @@ body {
   color: #E5E7EB;
 }
 .tanstack-table tr:hover td {
-  background: rgba(255,215,0,0.03);
+  background: rgba(38,204,194,0.03);
 }
 
 /* Hero gradient text */
 .gradient-text {
-  background: linear-gradient(135deg, #FFD700 0%, #FF6B35 100%);
+  background: linear-gradient(135deg, #26CCC2 0%, #FFB76C 100%);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -154,14 +154,14 @@ body {
 
 /* Badge styles */
 .badge-yellow {
-  background: rgba(255,215,0,0.15);
-  color: #FFD700;
-  border: 1px solid rgba(255,215,0,0.3);
+  background: rgba(38,204,194,0.15);
+  color: #26CCC2;
+  border: 1px solid rgba(38,204,194,0.3);
 }
 .badge-orange {
-  background: rgba(255,107,53,0.15);
-  color: #FF6B35;
-  border: 1px solid rgba(255,107,53,0.3);
+  background: rgba(255,183,108,0.15);
+  color: #FFB76C;
+  border: 1px solid rgba(255,183,108,0.3);
 }
 .badge-green {
   background: rgba(34,197,94,0.15);
@@ -193,15 +193,15 @@ body {
   min-height: 60px;
 }
 .calendar-day:hover {
-  background: rgba(255,215,0,0.05);
+  background: rgba(38,204,194,0.05);
 }
 .calendar-day.has-event {
-  background: rgba(255,215,0,0.08);
-  border: 1px solid rgba(255,215,0,0.2);
+  background: rgba(38,204,194,0.08);
+  border: 1px solid rgba(38,204,194,0.2);
 }
 .calendar-day.today {
-  background: rgba(255,107,53,0.15);
-  border: 1px solid rgba(255,107,53,0.4);
+  background: rgba(255,183,108,0.15);
+  border: 1px solid rgba(255,183,108,0.4);
 }
 
 /* Input styles */
@@ -216,8 +216,8 @@ body {
   width: 100%;
 }
 .input-dark:focus {
-  border-color: #FFD700;
-  box-shadow: 0 0 0 3px rgba(255,215,0,0.1);
+  border-color: #26CCC2;
+  box-shadow: 0 0 0 3px rgba(38,204,194,0.1);
 }
 .input-dark::placeholder {
   color: #6B7280;
